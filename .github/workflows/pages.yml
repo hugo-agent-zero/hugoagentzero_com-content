@@ -37,6 +37,10 @@ jobs:
       - name: Build
         working-directory: site
         run: hugo --baseURL "https://hugo-agent-zero.github.io/hugoagentzero_com-content/"
+      # Omit this step if settings.search.pagefind is false / you use another search.
+      - name: Index search
+        working-directory: site
+        run: npx -y pagefind@1.5.2 --site public
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/public
