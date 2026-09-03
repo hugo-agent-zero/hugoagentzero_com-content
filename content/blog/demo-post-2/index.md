@@ -16,7 +16,7 @@ tags:
   - demo
 slug: demo-post-2
 params:
-  summary: Second demo post sharing categories/tags with post 1 so taxonomy pages show multiple entries.
+  desc_short: Second demo post sharing categories/tags with post 1 so taxonomy pages show multiple entries.
   head_tags:
     document:
       title:

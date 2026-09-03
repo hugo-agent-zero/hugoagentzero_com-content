@@ -4,7 +4,6 @@ date: 2026-04-10T09:00:00-07:00
 authors:
   - author_0001
   - author_0002
-summary: "Placeholder copy for the first leaf-bundle post, with a co-located SVG asset."
 categories:
   - Notes
   - Engineering
@@ -12,6 +11,9 @@ tags:
   - hugo
   - demo
   - agent-zero
+params:
+  desc_short: "Placeholder teaser for the first leaf-bundle post."
+  desc_long: "This leaf-bundle demo shows layouts plus a co-located SVG asset — the longer Overview is for the single page; the list uses Summary only."
 ---
 
 This post lives in a **leaf bundle**: `content/blog/demo-post-1/index.md` plus files in the same folder (for example `cover.svg`). The public URL is **`/blog/demo-post-1/`** from the folder name; you could override that with `slug:` in front matter if you wanted a different last segment.
